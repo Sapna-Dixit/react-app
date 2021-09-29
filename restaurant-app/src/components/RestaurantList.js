@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Table} from 'react-bootstrap'
 export default class RestaurantList extends React.Component
 {
     constructor()
@@ -26,17 +26,38 @@ export default class RestaurantList extends React.Component
                 {
                     this.state.list?
                     <div>
-                        {
-                            this.state.list.map((item,i)=>
-                            <div>
-                                <span>{item.id}</span>
-                                <span>{item.name}</span>
-                                <span>{item.email}</span>
-                                <span>{item.rating}</span>
-                            </div>)
-                            
-                        }
-                       
+                       <Table striped bordered hover>
+                           <thead>
+                               <tr>
+                                   <th>#</th>
+                                   <th>Name</th>
+                                   <th>Email</th>
+                                   <th>Rating</th>
+                                   <th>address</th>
+                                   
+                               </tr>
+                            </thead>
+                            <tbody>
+                            {
+                                this.state.list.map((item,i)=>
+                                // <div>
+                                //     <span>{item.id}</span>
+                                //     <span>{item.name}</span>
+                                //     <span>{item.email}</span>
+                                //     <span>{item.address}</span>
+                                //     <span>{item.rating}</span>
+                                // </div>
+                                <tr>
+                                    <td>{item.id}</td>
+                                    <td>{item.name}</td>
+                                    <td>{item.email}</td>
+                                    <td>{item.rating}</td>
+                                    <td>{item.address}</td>
+                                </tr>
+                                 )
+                           }
+                           </tbody>
+                       </Table>
                     </div>
                      :<p>Please wait....</p>
                 }

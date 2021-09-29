@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link, BrowserRouter as Router,Route,NavLink} from "react-router-dom" 
+import Home from "./component/Home";
+import About from "./component/About";
+import Contact from "./component/Contact"
 
 ReactDOM.render(
   <React.StrictMode>
