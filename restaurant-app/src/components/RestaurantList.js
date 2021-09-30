@@ -1,5 +1,7 @@
 import React from "react"
 import {Table} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
+
 export default class RestaurantList extends React.Component
 {
     constructor()
@@ -33,7 +35,8 @@ export default class RestaurantList extends React.Component
                                    <th>Name</th>
                                    <th>Email</th>
                                    <th>Rating</th>
-                                   <th>address</th>
+                                   <th>Address</th>
+                                   <th>Operation</th>
                                    
                                </tr>
                             </thead>
@@ -53,6 +56,7 @@ export default class RestaurantList extends React.Component
                                     <td>{item.email}</td>
                                     <td>{item.rating}</td>
                                     <td>{item.address}</td>
+                                    <td><Link to={"/update/"+item.id}>Edit</Link></td>
                                 </tr>
                                  )
                            }
