@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  margin-left:300px;
+  margin-top: 180px;
 }
 
 .App-logo {
@@ -12,7 +15,42 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.loginfrm
+{
+  height:200px;
+  width:300px;
+  background:skyblue;
+  color:black;
+  padding:10px;
+  box-shadow: 4px 4px 4px lightgray;
+  border-radius:20px;
+  
+}
+.loginfrm  input
+{
+  border:1px solid #fff;
+}
 
+.email
+{
+  align-items: center;
+   margin-top:50px;
+}
+.ePass
+{
+  text-align: center;
+  background:skyblue;
+  width:300px;
+  height:auto;
+  border:1px solid lightgray;
+  border-radius:20px;
+  box-shadow:4px 4px 4px grey;
+}
+.showDataStyle
+{
+  padding-top:30px;
+  padding-bottom:15px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

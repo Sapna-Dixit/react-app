@@ -5,6 +5,7 @@ const ShortCirEval =()=>{
 
     return(
         <h1 className="h1Style">{demo ||"Technical"}</h1>
+      
     )
 }
 export default ShortCirEval;

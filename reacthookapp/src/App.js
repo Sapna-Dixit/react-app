@@ -4,7 +4,11 @@ import UseStateArray from './useStateArray'
 import UseStateObject from './UseStateObject'
 import TODOList from './TODOList'
 import  ShortCirEval from './ShortCirEval'
-
+import BasicForms from './Basicforms'
+import "./App.css"
+import UseEffect1 from './UseEffect1'
+import EmojiReact from './EmojiReact'
+import UseEffect2 from './UseEffect2'
 
 const App = ()=>
 {
@@ -38,18 +42,26 @@ const App = ()=>
   
   return(
     <center>
-    <div>
+    <div className="App">
       {
       //    <h1>{myName}</h1>
       //    <button onClick = {changeName}>click me</button>
      
       // <RulesHooks />
       // <UseStateArray />
-    }
+   
 
-    <UseStateObject />
-    <TODOList />
-    <ShortCirEval />
+    // <UseStateObject />
+    // <TODOList />
+    // <ShortCirEval />
+    // <hr/>
+ 
+   // <BasicForms />
+   //<EmojiReact />
+  }
+   
+  <UseEffect1 />
+  <UseEffect2 />
     </div> </center>
   )
  
