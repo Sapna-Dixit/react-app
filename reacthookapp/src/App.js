@@ -10,6 +10,8 @@ import UseEffect1 from './UseEffect1'
 import EmojiReact from './EmojiReact'
 import UseEffect2 from './UseEffect2'
 
+import UseEffect3 from './UseEffect3';
+
 const App = ()=>
 {
 
@@ -59,9 +61,13 @@ const App = ()=>
    // <BasicForms />
    //<EmojiReact />
   }
-   
   <UseEffect1 />
-  <UseEffect2 />
+
+  <UseEffect2 /><hr/>
+  <UseEffect3 />
+
+   
+ 
     </div> </center>
   )
  
