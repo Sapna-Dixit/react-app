@@ -1,29 +1,6 @@
 {
   "users": [
     {
-      "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
-    },
-    {
       "id": 5,
       "name": "Chelsey Dietrich",
       "username": "Kamren",
@@ -93,29 +70,6 @@
       }
     },
     {
-      "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "username": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me",
-      "address": {
-        "street": "Ellsworth Summit",
-        "suite": "Suite 729",
-        "city": "Aliyaview",
-        "zipcode": "45169",
-        "geo": {
-          "lat": "-14.3990",
-          "lng": "-120.7677"
-        }
-      },
-      "phone": "586.493.6943 x140",
-      "website": "jacynthe.com",
-      "company": {
-        "name": "Abernathy Group",
-        "catchPhrase": "Implemented secondary concept",
-        "bs": "e-enable extensible e-tailers"
-      }
-    },
-    {
       "id": 9,
       "name": "Glenna Reichert",
       "username": "Delphine",
@@ -160,6 +114,22 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
+    },
+    {
+      "name": "Andrew",
+      "username": "andrew12",
+      "email": "andrew@test.com",
+      "phone": "4156546546",
+      "website": "webiwork",
+      "id": 11
+    },
+    {
+      "name": "omprakash",
+      "username": "omprakash12",
+      "email": "omprakash12@test.com",
+      "phone": "024-648-3804",
+      "website": "Google",
+      "id": 12
     }
   ]
 }

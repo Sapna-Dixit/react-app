@@ -6,7 +6,7 @@ import  {addToDo,deleteToDo,removeToDo} from '../actions/index'
 
 const TODO = ()=>{
     const[inputData, setInputData] = useState('')
-    const list =useSelector((state)=> state.ToDoReducer.list)
+    const list =useSelector((state)=> state.ToDoReducer)
     const dispatch = useDispatch();
     return(
     <>
